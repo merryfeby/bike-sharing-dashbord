@@ -5,7 +5,7 @@ import streamlit as st
 sns.set(style='dark')
 
 ##Assessing Data
-day_data = pd.read_csv('main_data.csv')
+day_data = pd.read_csv('dashboard/main_data.csv')
 
 day_data_dtypes = day_data.dtypes
 
